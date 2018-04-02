@@ -18,14 +18,14 @@ var lowercase = "I can't hear you!"
 lowercase.toLowerCase(" I can't hear you!")
 
 var mixedCase = 'I love you,Grandma!'
-mixedCase.toLowerCase('I love you,Grandma') === mixedCase 
+mixedCase.toLowerCase('I love you,Grandma') === mixedCase
  
-mixedCase.toUpperCase('I love you,Grandma) === mixedCase 
+mixedCase.toUpperCase('I love you,Grandma') === mixedCase 
 
 if(function sayHiToGrandma(String){
 return String.toLowerCase("I can't hear you!")
-} else if { (function sayHiToGrandma(string) {
+} if{(function sayHiToGrandma(string) {
   return string.toUpperCase('yes indeed!')
-} else { (function sayHiToGrandma(string ==='I love you,Grandma') {
+} else{(function sayHiToGrandma(string ==='I love you,Grandma') {
   return string('I love too')
 }
