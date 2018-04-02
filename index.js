@@ -26,6 +26,6 @@ if(function sayHiToGrandma(String){
 return String.toLowerCase("I can't hear you!");
  if(function sayHiToGrandma(string) {
   return string.toUpperCase("yes indeed!");
- else(function sayHiToGrandma(string ==="I love you,Grandma") {
+ if(function sayHiToGrandma(string ==="I love you,Grandma") {
   return string("I love too");
 }
