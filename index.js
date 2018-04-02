@@ -17,9 +17,9 @@ uppercase.toUpperCase('yes indeed') === uppercase
 var lowercase = "I can't hear you!"
 lowercase.toLowerCase(" I can't hear you!")
 
-var mixedCase = 'Hi there!'
+var mixedCase = 'I love you,Grandma!'
  
-mixedCase.toLowerCase() === mixedCase 
+mixedCase.toLowerCase('I love you Grandma') === mixedCase 
  
 mixedCase.toUpperCase() === mixedCase 
 
