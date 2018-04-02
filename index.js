@@ -18,10 +18,9 @@ var lowercase = "I can't hear you!"
 lowercase.toLowerCase(" I can't hear you!")
 
 var mixedCase = 'I love you,Grandma!'
+mixedCase.toLowerCase('I love you,Grandma') === mixedCase 
  
-mixedCase.toLowerCase('I love you Grandma') === mixedCase 
- 
-mixedCase.toUpperCase() === mixedCase 
+mixedCase.toUpperCase('I love you,Grandma) === mixedCase 
 
 if(function sayHiToGrandma(String){
 return String.toLowerCase("I can't hear you!")
