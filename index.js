@@ -22,12 +22,18 @@ mixedCase.toLowerCase('I love you,Grandma') === mixedCase
  
 mixedCase.toUpperCase('I love you,Grandma') === mixedCase 
 
-if(function sayHiToGrandma(String)) {
-return String.toLowerCase("I can't hear you!")
-
- } else if(function sayHiToGrandma(string)){
-  return string.toUpperCase("yes indeed!")
-  
- } else(function sayHiToGrandma(string)) {
-  return string.mixedCase("I love too")
-}
+function sayHiToGrandma(string) {
+ +  if (string.toLowerCase() === string) {
+ +    return "I can't hear you!"
+ +  }
+ +
+ +  if (string.toUpperCase() === string) {
+ +    return "YES INDEED!"
+ +  }
+ +
+ +  if (string === "I love you, Grandma.") {
+ +    return "I love you, too."
+ +  }
+ +
+ +  return "Are you eating enough?"
+ +}
