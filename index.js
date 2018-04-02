@@ -24,8 +24,10 @@ mixedCase.toUpperCase('I love you,Grandma') === mixedCase
 
 if(function sayHiToGrandma(String){
 return String.toLowerCase("I can't hear you!");
- if(function sayHiToGrandma(string) {
-  return string.toUpperCase("yes indeed!");
+}
+ else if(function sayHiToGrandma(string) {
+  return string.toUpperCase("yes indeed!")
+ }
  if(function sayHiToGrandma(string ==="I love you,Grandma") {
-  return string("I love too");
+  return string("I love too")
 }
