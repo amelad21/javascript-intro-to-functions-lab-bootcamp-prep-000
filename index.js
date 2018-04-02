@@ -20,8 +20,6 @@ lowercase.toLowerCase(" I can't hear you!")
 var mixedCase = 'I love you,Grandma!'
 mixedCase.toLowerCase('I love you,Grandma') === mixedCase
  
-mixedCase.toUpperCase('I love you,Grandma') === mixedCase 
-
 function sayHiToGrandma(string) {
  +  if (string.toLowerCase() === string) {
  +    return "I can't hear you!"
@@ -37,10 +35,4 @@ function sayHiToGrandma(string) {
  +
  +  return "Are you eating enough?"
  +}
-      it('returns "I love you, too." if `string` is "I love you, Grandma."`', () => {
-        expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-      })
- +
- +    it('returns "Are you eating enough?" otherwise', () => {
- +      expect(sayHiToGrandma('Hello')).toEqual("Are you eating enough?")
- +    })
+      
