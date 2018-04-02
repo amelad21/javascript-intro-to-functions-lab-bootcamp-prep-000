@@ -22,7 +22,7 @@ mixedCase.toLowerCase('I love you,Grandma') === mixedCase
  
 mixedCase.toUpperCase('I love you,Grandma') === mixedCase 
 
-if(function sayHiToGrandma(String) ) {
+if(function sayHiToGrandma(String)) {
 return String.toLowerCase("I can't hear you!")
 
  } else if(function sayHiToGrandma(string)){
